@@ -9387,7 +9387,7 @@ c      call Orb_Analysis(iunit,ispin,ne,dcpl_mb(psi1(1)))
             end do
 
          end do !** ms***
-         if (ms.eq.1) smearcorrection=smearcorrection+smearcorrection
+         if (ispin.eq.1) smearcorrection=smearcorrection+smearcorrection
 
          go to 99
 
@@ -9575,7 +9575,7 @@ c      call Orb_Analysis(iunit,ispin,ne,dcpl_mb(psi1(1)))
             end do
 
          end do !** ms***
-         if (ms.eq.1) smearcorrection=smearcorrection+smearcorrection
+         if (ispin.eq.1) smearcorrection=smearcorrection+smearcorrection
 
          go to 99
 
